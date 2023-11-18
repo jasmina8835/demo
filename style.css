@@ -4,26 +4,22 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1200px;
+.content{
+    width: 700px;
     margin: auto;
-    padding: 5%;
 }
 
-/* ================start header=============== */
-
-.header{
-    display: flex;
+input{
+    border: 2px solid grey;
+    padding: 20px;
+    border: none;
+    box-shadow: 1px 1px 10px 0;
 }
 
-ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    text-decoration: none;
-    position: relative;
-    bottom: 35px;
-
+button{
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background-color: #F78CB6;
 }
-
-/* ================header end================= */
